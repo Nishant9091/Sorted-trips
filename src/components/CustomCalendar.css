@@ -1,0 +1,84 @@
+.card {
+  width: 400px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  padding: 0;
+  overflow: scroll;
+  height: 250px;
+  width: 400px;
+}
+
+.calendar-week {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.calendar-day {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.current-month-day {
+  background-color: #f0f0f0;
+}
+
+.disabled-day {
+  color: #ccc;
+}
+
+.modal-content {
+  display: flex;
+  align-items: self-end;
+  width: 0rem;
+  height: 0rem;
+  justify-content: space-evenly;
+}
+
+.Calendar {
+  padding: 27px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.rbc-calendar {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.rbc-btn-group button {
+  background-color: #3174ad;
+  color: white;
+}
+
+.rbc-toolbar .rbc-toolbar-label {
+  font-weight: bold;
+  left: 3px;
+  font-family: "Poppins";
+  margin-left: 98px;
+}
+
+.modal-body {
+  background-color: white;
+  left: -11rem;
+  width: 74rem;
+  height: 57rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,154 @@
+.cards {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardpro {
+  height: -webkit-fill-available;
+  padding: 1rem;
+  width: 32%;
+  text-align: start;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.11);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 1rem 0.8rem;
+  margin: 2.5rem;
+  text-align: center;
+  transition: 3s;
+  transition: 0.3s ease-in-out;
+  margin: 2%;
+  aspect-ratio: 335 / 360;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 10px 1px;
+  border: 1px solid rgba(1, 95, 116, 0.1);
+  position: relative;
+}
+
+.cardpro img {
+  width: 100%;
+  aspect-ratio: 335 / 190;
+  border-radius: 6px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(170, 170, 170);
+}
+
+/* .cardpro:hover{
+    transform: scale(1.1);
+} */
+
+.cardpro h4 {
+  font-size: 1.6rem;
+  padding: 0.9rem 0 1.2rem 0;
+  text-align: start;
+}
+
+.Date {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.day {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.Place {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.bigtrips h2 {
+  margin-top: revert;
+  font-weight: bold;
+  color: rgb(1, 95, 116);
+  font-size: 4rem;
+}
+
+.Date input {
+  border: none;
+  width: 6rem;
+}
+
+.react-datepicker-wrapper {
+  border: none;
+  width: 7rem;
+}
+
+.cardpro button {
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(1 95 116 / 23%);
+  color: black;
+  font-family: 'Poppins';
+}
+
+.cardpro button:hover {
+  color: rgb(0, 0, 0);
+}
+
+.Price {
+  z-index: 2;
+  height: 35px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  background: rgb(254, 230, 11);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 19.2px;
+  line-height: 27px;
+  color: rgb(12, 12, 12);
+  padding: 10px;
+}
+
+.exbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    bottom: 9px;
+    left: 11px;
+    position: absolute;
+    font-weight: 400;
+    width: calc(100% - 20px);
+    height: 10.01%;
+    border-style: none;
+    border-radius: 4px;
+    background: linear-gradient(96.58deg, rgb(1, 175, 209) 21.15%, rgba(1, 175, 209, 0.7) 100%);
+    transition: background 0.6s ease-in-out 0s;
+
+}
+
+.modal-body{
+  margin: auto;
+}

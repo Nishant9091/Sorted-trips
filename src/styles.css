@@ -1,0 +1,22 @@
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+@font-face{
+font-family:"nexaBold";
+src: url(Font/Nexa\ Bold.otf);
+}
+@font-face {
+  font-family: "nexaLight";
+  src: url(Font/Nexa\ Light.otf);
+}
+.App {
+  text-align: center;
+
+}

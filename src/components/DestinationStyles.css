@@ -1,0 +1,105 @@
+.destination{
+    font-family: "nexaBold";
+    padding: 4rem 6rem;
+    background-color: #00000005;
+    text-align: justify;
+    font-family: "nexaBold";
+}
+
+.destination h2{
+    font-size: 39px;
+    color: #22577a;
+    border-bottom: 4px solid #22577a;
+    font-family: "nexaBold";
+}
+
+.first-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    
+}
+.description_text{
+    font-family: "'nexaLight'";
+    font-size: x-large;
+}
+
+.first-des-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.des-text{
+    width: 45%;
+    text-align: "justify";
+    font-size: 1.1rem;
+}
+
+/* .des-text h4{
+    padding-bottom: 1rem;
+
+} */
+
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
+}
+
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .description_text{
+        font-size: medium;
+    }
+
+    .destination{
+        margin: 4rem 2rem;
+        padding: 27px;
+    margin: 0;
+    }
+    
+    .first-des{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .first-des-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
+
+    .des-text{
+        width: 100%;
+        text-align: start;
+        font-size: 1.1rem;
+    }
+
+    .image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+}

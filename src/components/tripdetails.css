@@ -1,0 +1,142 @@
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-group-flush {
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Ouick {
+  height: 550px;
+  width: 180%;
+  margin: 10px;
+}
+
+.trips_dates {
+  color: rgba(157, 58, 11, 1);
+  font-family: Franklin Gothic;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.col-md-8 {
+  text-align: left;
+}
+
+.col-md-8 h2 {
+  padding: 2rem;
+}
+
+.col-md-4 img {
+  padding: 1rem;
+  width: 220px;
+  height: 300px;
+}
+.trip_plan {
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 0 10px;
+}
+.trip_plan1 {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  border-right: 1px solid rgb(99 167 205);
+  padding: 12px;
+  width: 50%;
+}
+.trips_btn {
+  width: 61%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 7px;
+}
+.dates {
+  text-align: center;
+  border-right: 1px solid rgb(99 167 205);
+  width: 16%;
+}
+
+.trips {
+  padding-top: 6rem;
+}
+
+.dyt {
+  font-size: 25px;
+}
+
+.trips h2 {
+  font-family: "nexaBold";
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #0c5b8f;
+  border-color: #6c757d;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #fb8616;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    gap: 18px;
+  }
+  .trip_plan {
+    width: 95%;
+    text-align: start;
+  }
+
+  .trips_btn a {
+    margin: -11px;
+    width: max-content;
+    font-size: 9px;
+  }
+
+  .trips_btn button {
+    font-size: 10px;
+  }
+
+  .trip_plan1 {
+    margin: auto;
+  }
+  .trips_btn {
+    margin-bottom: -28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    gap: 0;
+  }
+
+  .dates {
+    display: inline-block;
+    text-align: center;
+    width: 28%;
+    padding: 17px;
+  }
+  .title {
+    border-right: 2px solid #a8cee3;
+    display: flex;
+    height: 80px;
+    align-items: center;
+  }
+}

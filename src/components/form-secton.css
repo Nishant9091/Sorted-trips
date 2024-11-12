@@ -1,0 +1,74 @@
+.form-section {
+  font-family: "nexaBold";
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #fafafa;
+  margin-bottom: 2rem;
+  padding: 4rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form-section input {
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fbfbfb;
+  border: 2px solid transparent;
+  height: 36px;
+  box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%),
+    0 1px 1.5px 0 rgb(0 0 0 / 5%);
+  :focus {
+    border: 2px solid #000;
+    border-radius: 4px;
+  }
+}
+
+.form-section {
+  font-weight: bold;
+  width: fit-content;
+  border: 2px solid rgb(58, 58, 58);
+  border-radius: 1vw;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px -6px 10px;
+}
+
+#Personal-Info {
+  flex-direction: column;
+}
+
+#SummarySection {
+  width: 94vh;
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+  justify-content: space-between; 
+}
+
+#SummarySection h3{
+  margin: auto;
+}
+
+.form-section fieldset {
+  display: flex;
+  align-items: self-start;
+}
+
+
+@media screen and (max-width: 550px){
+  .form-section{
+    width: auto;
+  }
+  #SummarySection {
+    width: fit-content;
+    margin-left: -2.5rem;
+  }
+  #Personal-Info {
+    margin-left: -3rem;
+    padding: 2REM;
+  }
+}
